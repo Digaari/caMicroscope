@@ -1,7 +1,7 @@
 # caMicroscope - Cancer Region of Interest Extraction and Machine Learning
 
 ### Mentors
-  **Insiyah Hajoori** and **Ryan Birmingham **
+  **Insiyah Hajoori** and **Ryan Birmingham**
 
 ### Code Challenge:
 Using a machine learning toolkit of your choice, create a tool which identifies objects in the image, then returns positions in pixels corresponding to bounding boxes of a user-selected class of object in the image. For example, given an image with both cats and dogs, return bounding boxes for only cats.
