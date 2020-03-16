@@ -46,3 +46,10 @@ python app.py
 ## Author
 
 [Hrishabh Digaari](https://www.linkedin.com/in/hrishabh-d-35aa60127/) - LinkedIn
+
+## Acknowledgments
+
+* https://arxiv.org/pdf/1506.02640.pdf
+* https://arxiv.org/pdf/1804.02767.pdf
+* https://flask.palletsprojects.com/
+* https://firebase.google.com/docs/web/setup
