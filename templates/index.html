@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>GSOC Code Challenge</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="static/css/main.css" />
+	</head>
+	<body>
+		<!-- Header -->
+			<header id="header" background-image= "https://firebasestorage.googleapis.com/v0/b/object-detection-yolo-cdf10.appspot.com/o/banner.jpg?alt=media" class="alt">
+				<div class="inner">
+					<h1>GSOC: caMicroscope</h1>
+					<p>Code Challenge | 2020 | By Hrishabh Digaari</p>
+				</div>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+				<section id="intro" class="main">
+					<span class="icon fa-diamond major"></span>
+					<h2>WELCOME!</h2>
+					<p>This is a Project to detect objects in an image! </p>
+						<section id="cta" class="main special">
+							<div class="row justify-content-center">
+								<div class="col-6">
+								  {% block form %}
+				<form enctype="multipart/form-data" method="post">
+				  
+									<div class="form-group">
+										<h3>Choose an image of the format .JPG | .PNG | .JPEG</h3>
+									  <!-- <label for="file_input"> Image input</label> -->
+									  <input type="file" name="file_input" />
+				</div>
+				<br>
+				<br>
+									<button type="submit" name="button"> Detect! </button>
+								  </form>
+								  {% endblock %}
+								  </div>
+							  </div>
+						</section>
+				</section>
+					<section id="main" class="main">
+						<header>
+							<h2>Cancer Region of Interest Extraction and Machine Learning</h2>
+						</header>
+						<h5>Mentors:  Insiyah Hajoori and Ryan Birmingham</h5>
+						<h5>Overview:</h5>
+						<p>This project would involve extending the existing machine learning intergrations beyond marking up images, and allow users to fetch regions of interest from a given slide automatically. This would allow for users and scientists to train other models for tasks such as synthetic data generation. Specifically, this task would involve letting a user run a model on an image and download sections of the image based on model output.
+
+							The aim is to support a wider range of models and flexible use of their outputs. One such example is a two stage CNN described here. Currently, caMicroscope supports single stage networks showing results directly, but no provision to use those results in any other model.</p>
+						<h5>Code Challenge: </h5>	
+						<p>Using a machine learning toolkit of your choice, create a tool which identifies objects in the image, then returns positions in pixels corresponding to bounding boxes of a user-selected class of object in the image. For example, given an image with both cats and dogs, return bounding boxes for only cats.</p>
+						</section>
+
+						
+				
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://www.instagram.com/hrishabh_digaari/?hl=en" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.linkedin.com/in/hrishabh-d-35aa60127/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/Digaari" class="icon fa-github"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Hrishabh Digaari. &nbsp Papers used: <a href="https://arxiv.org/pdf/1506.02640.pdf">YOLO</a> | <a href="https://arxiv.org/pdf/1804.02767.pdf">YOLOv3</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/skel.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>
+      {% block script %}{% endblock %}
+	</body>
+</html>
