@@ -28,6 +28,8 @@
 5. On the terminal:
 ```
  cd caMicroscope
+ pip install virtualenv
+ source env/Scripts/activate
  pip install -r requirements.txt
 ```
 6. Install Pyrebase4 4.3.0
