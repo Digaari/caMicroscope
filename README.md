@@ -8,7 +8,7 @@ Using a machine learning toolkit of your choice, create a tool which identifies 
 
 ### Prerequisites
 
-* Python **3.7.5**
+* Python **2.7**
 * Node **v12.16.1 or above**
 * You will need the weights. Get them from: https://drive.google.com/drive/folders/1lNKCbOM7VSRLIvHB2jh7XQAThPRHmpt_?usp=sharing
 
