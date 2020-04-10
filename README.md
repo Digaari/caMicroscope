@@ -46,6 +46,9 @@ python app.py
 8. Choose a file from ```Images```
 9. Your File has been detected. Thanks!
 
+## Screenshots
+![2020-03-21 (5)](https://user-images.githubusercontent.com/33162540/78961631-b7681900-7b0f-11ea-8b76-27b0518a80f9.png)
+
 ## Author
 
 [Hrishabh Digaari](https://www.linkedin.com/in/hrishabh-d-35aa60127/) - LinkedIn
