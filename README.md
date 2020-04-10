@@ -49,6 +49,10 @@ python app.py
 ## Screenshots
 ![2020-03-21 (5)](https://user-images.githubusercontent.com/33162540/78961631-b7681900-7b0f-11ea-8b76-27b0518a80f9.png)
 
+![2020-03-21 (7)](https://user-images.githubusercontent.com/33162540/78961684-f39b7980-7b0f-11ea-9141-75d3d7176524.png)
+
+![2020-03-21 (10)](https://user-images.githubusercontent.com/33162540/78961700-fd24e180-7b0f-11ea-8579-f0c9cd6406f9.png)
+
 ## Author
 
 [Hrishabh Digaari](https://www.linkedin.com/in/hrishabh-d-35aa60127/) - LinkedIn
